@@ -39,7 +39,7 @@
     color: var(--first-color-white);
     background-color: var(--second-color);
     padding: .8rem;
-    border-radius: 1rem;
+    border-radius: .5rem;
     text-align: center;
     transition: box-shadow 300ms;
 }

@@ -1,0 +1,23 @@
+/* RESET ========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 93.75%; /* 15px = 1rem */
+    font-family: 'Londrina Solid', sans-serif;
+}
+
+
+/* RESET ========================== */
+:root {
+    --first-color-white: #F6F6F7;
+    --first-color-dark: #040505;
+    --second-color: #1B62F8;
+    --third-color-light: #BABEC8;
+    --third-color-dark: #4D535D;
+    --shadow-color: #32ACB1;
+}

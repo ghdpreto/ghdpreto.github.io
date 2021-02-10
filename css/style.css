@@ -38,8 +38,8 @@
     font-size: 1.6rem;
     color: var(--first-color-white);
     background-color: var(--second-color);
-    padding: .8rem;
-    border-radius: .5rem;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
     text-align: center;
     transition: box-shadow 300ms;
 }
@@ -122,9 +122,8 @@
     max-width: 30rem;
     display: inline-flex;
     flex-direction: column;
-    border: 1px solid red;
     position: relative;
-    padding: .5rem;
+    padding: 0.5rem;
     margin-bottom: 3rem;
     margin-left: 3rem;
 }
@@ -148,13 +147,13 @@
     position: absolute;
     bottom: 10px;
     left: 7rem;
-    padding: .3rem;
-    border-radius: 0.30rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
 }
 
 .experience-bar::before {
     content: "";
     width: 80%;
-    border-radius: .30rem;
-    background: linear-gradient(30deg, var(--first-color-dark) 3%, rgba(6, 5, 82, 1) 34%, var(--second-color) 98%);
+    border-radius: 0.3rem;
+    background: linear-gradient( 30deg, var(--first-color-dark) 3%, rgba(6, 5, 82, 1) 34%, var(--second-color) 98%);
 }

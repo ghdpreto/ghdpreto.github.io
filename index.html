@@ -1,82 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400;900&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400;900&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/style.css" />
 
     <title>Gustavo Henrique</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <img class="logo" src="./assets/img/logo-white.svg" alt="Logo" />
-        <nav class="nav">
-            <a class="action" href="#">Skills</a>
-            <a class="action" href="#">Projetos</a>
-            <a class="action" href="#">Sobre</a>
-            <a class="action" href="#">Contatos</a>
-            <a class="button" href="#">Download CV</a>
-        </nav>
+      <img class="logo" src="./assets/img/logo-white.svg" alt="Logo" />
+      <nav class="nav">
+        <a class="action" href="#">Skills</a>
+        <a class="action" href="#">Projetos</a>
+        <a class="action" href="#">Sobre</a>
+        <a class="action" href="#">Contatos</a>
+        <a class="button" href="#">Download CV</a>
+      </nav>
     </header>
 
     <main>
-        <section class="banner">
-            <div class="box">
-                <h1 class="title">Gustavo Henrique</h1>
-                <p class="subtitle">Front-end Student</p>
-                <div class="box-button">
-                    <a class="button" href="#">Dowload CV</a>
-                    <a class="button -outline" href="#">Contatos</a>
-                </div>
-            </div>
-        </section>
+      <section class="banner">
+        <div class="box">
+          <h1 class="title">Gustavo Henrique</h1>
+          <p class="subtitle">Front-end Student</p>
+          <div class="box-button">
+            <a class="button" href="#">Dowload CV</a>
+            <a class="button -outline" href="#">Contatos</a>
+          </div>
+        </div>
+      </section>
 
-        <section class="skill">
-            <h1 class="title">Skills</h1>
-            <div class="container">
-                <div class="skill-item">
-                    <img class="skill-item-img" src="./assets/ico_html5.svg" alt="Logo HTML" />
-                    <p>HTML</p>
-                    <div class="experience-bar"></div>
-                </div>
-                <div class="skill-item">
-                    <img class="skill-item-img" src="./assets/ico_css3.svg" alt="Logo CSS" />
-                    <p>CSS</p>
-                    <div class="experience-bar"></div>
-                </div>
-                <div class="skill-item">
-                    <img class="skill-item-img" src="./assets/ico_js.svg" alt="Logo JavaScript" />
-                    <p>JavaScript</p>
-                    <div class="experience-bar"></div>
-                </div>
-            </div>
-        </section>
+      <section class="skill">
+        <h1 class="title">Skills</h1>
+        <div class="container">
+          <div class="skill-item">
+            <img
+              class="skill-item-img"
+              src="./assets/ico_html5.svg"
+              alt="Logo HTML"
+            />
+            <p>HTML</p>
+            <progress class="experience-bar" value="30" max="100">50%</progress>
+          </div>
+          <div class="skill-item">
+            <img
+              class="skill-item-img"
+              src="./assets/ico_css3.svg"
+              alt="Logo CSS"
+            />
+            <p>CSS</p>
+            <progress class="experience-bar" value="50" max="100">50%</progress>
+          </div>
+          <div class="skill-item">
+            <img
+              class="skill-item-img"
+              src="./assets/ico_js.svg"
+              alt="Logo JavaScript"
+            />
+            <p>JavaScript</p>
+            <progress class="experience-bar" value="90" max="100">50%</progress>
+          </div>
+        </div>
+      </section>
 
-        <section class="projects">
-            <h1 class="title">Projetos</h1>
-            <div class="container">
-                <a class="box-project" href="https://github.com/ghdpreto/four-card-feature" target="_blank">
-                    <h1 class="subtitle">Four card feature</h1>
-                    <img src="https://raw.githubusercontent.com/ghdpreto/four-card-feature/master/design/desktop-preview.jpg" alt="Imagem do Projeto" srcset="" />
-                </a>
-                <a class="box-project" href="https://github.com/ghdpreto/fylo-data-storage-component" target="_blank">
-                    <h1 class="subtitle">Fylo data storage</h1>
-                    <img src="https://raw.githubusercontent.com/ghdpreto/fylo-data-storage-component/master/design/desktop-preview.jpg" alt="Imagem do Projeto" srcset="" />
-                </a>
-                <a class="box-project" href="https://github.com/ghdpreto/single-price-component" target="_blank">
-                    <h1 class="subtitle">Single Price Grid</h1>
-                    <img src="https://raw.githubusercontent.com/ghdpreto/single-price-component/master/design/desktop-preview.jpg" alt="Imagem do Projeto" srcset="" />
-                </a>
-            </div>
-        </section>
+      <section class="projects">
+        <h1 class="title">Projetos</h1>
+        <div class="container">
+          <a
+            class="box-project"
+            href="https://github.com/ghdpreto/four-card-feature"
+            target="_blank"
+          >
+            <h1 class="subtitle">Four card feature</h1>
+            <img
+              src="https://raw.githubusercontent.com/ghdpreto/four-card-feature/master/design/desktop-preview.jpg"
+              alt="Imagem do Projeto"
+              srcset=""
+            />
+          </a>
+          <a
+            class="box-project"
+            href="https://github.com/ghdpreto/fylo-data-storage-component"
+            target="_blank"
+          >
+            <h1 class="subtitle">Fylo data storage</h1>
+            <img
+              src="https://raw.githubusercontent.com/ghdpreto/fylo-data-storage-component/master/design/desktop-preview.jpg"
+              alt="Imagem do Projeto"
+              srcset=""
+            />
+          </a>
+          <a
+            class="box-project"
+            href="https://github.com/ghdpreto/single-price-component"
+            target="_blank"
+          >
+            <h1 class="subtitle">Single Price Grid</h1>
+            <img
+              src="https://raw.githubusercontent.com/ghdpreto/single-price-component/master/design/desktop-preview.jpg"
+              alt="Imagem do Projeto"
+              srcset=""
+            />
+          </a>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>

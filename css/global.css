@@ -1,25 +1,29 @@
 /* RESET ========================== */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    /* 15px = 1rem */
-    font-size: 93.75%;
-    font-family: 'Londrina Solid', sans-serif;
+  /* 15px = 1rem */
+  font-size: 93.75%;
+  font-family: "Londrina Solid", sans-serif;
 }
 
+button {
+  border: none;
+  font-family: "Londrina Solid", sans-serif;
+}
 
 /* COLORS ========================== */
 
 :root {
-    --first-color-white: #F6F6F7;
-    --first-color-dark: #040505;
-    --second-color: #1B62F8;
-    --third-color-light: #BABEC8;
-    --third-color-dark: #4D535D;
-    --shadow-color: #32ACB1;
+  --first-color-white: #f6f6f7;
+  --first-color-dark: #040505;
+  --second-color: #1b62f8;
+  --third-color-light: #babec8;
+  --third-color-dark: #4d535d;
+  --shadow-color: #32acb1;
 }

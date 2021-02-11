@@ -214,3 +214,21 @@
   margin-top: 1rem;
   width: 100%;
 }
+
+.about {
+  background-color: var(--first-color-dark);
+  padding: 2.5rem 0;
+}
+
+.about .title {
+  color: var(--first-color-white);
+  font-size: 4rem;
+  text-align: center;
+}
+
+.about .text-description {
+  color: var(--third-color-light);
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: justify;
+}

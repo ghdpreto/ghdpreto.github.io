@@ -129,12 +129,21 @@
 
       <section class="contact">
         <h2 class="title">Contatos</h2>
-        <form class="form container" action="">
+        <form
+          class="form container"
+          onsubmit="event.preventDefault()"
+          action=""
+        >
           <label for="name">Nome</label>
-          <input type="text" name="name" id="name" />
+          <input type="text" name="name" id="name" placeholder="Seu nome..." />
 
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" />
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite seu melhor e-mail..."
+          />
 
           <label for="menssage">Mensagem</label>
           <textarea
@@ -144,6 +153,7 @@
             rows="10"
             placeholder="Digite sua mensagem!"
           ></textarea>
+          <button class="button" type="submit">Enviar</button>
         </form>
       </section>
     </main>

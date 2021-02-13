@@ -245,7 +245,6 @@
   display: flex;
   text-align: start;
   flex-direction: column;
-  border: 1px solid red;
 }
 
 .form label {
@@ -276,4 +275,24 @@
 .form textarea:focus {
   outline: none;
   box-shadow: 5px 5px 0 var(--shadow-color);
+}
+
+.footer {
+  text-align: center;
+  color: var(--first-color-white);
+  background-color: var(--first-color-dark);
+  padding: 2rem;
+}
+
+.footer a {
+  display: inline-flex;
+  align-items: center;
+  padding-top: 0.8rem;
+  text-decoration: none;
+  color: var(--first-color-white);
+}
+
+.attribuition-logo {
+  width: 2rem;
+  margin-left: 0.5rem;
 }

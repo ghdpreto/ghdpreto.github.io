@@ -230,7 +230,7 @@
 }
 
 .contact {
-  padding: 2.5rem;
+  padding: 2.5rem 0;
   background-color: var(--third-color-dark);
   text-align: center;
 }
@@ -245,6 +245,7 @@
   display: flex;
   text-align: start;
   flex-direction: column;
+  border: 1px solid red;
 }
 
 .form label {
